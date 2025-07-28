@@ -2,7 +2,7 @@ from google.adk.agents import Agent
 from .tools import create_calendar_event
 from .tools import get_current_time
 
-model_id = "gemini-2.5-flash-lite-preview-06-17"
+model_id = "google/gemini-2.0-flash"
 
 root_agent = Agent(
     name="agent",
